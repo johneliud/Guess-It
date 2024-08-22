@@ -10,7 +10,7 @@ import (
 )
 
 
-// ReadStandardInput reads numbers from the standard input and prints the range in which the next number should be.
+// ReadStandardInput reads numbers from the standard input and prints the range in which the next number is likely to be.
 func ReadStandardInput() {
 	var nums []float64
 	scanner := bufio.NewScanner(os.Stdin)
