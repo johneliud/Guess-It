@@ -37,7 +37,7 @@ func ReadStandardInput() {
 			}
 			lowerLimit, upperLimit := guessrange.GuessRange(nums)
 
-			fmt.Printf("%d %d\n", lowerLimit, upperLimit)
+			fmt.Printf("Possible next number range: %d - %d\n", lowerLimit, upperLimit)
 		}
 
 		if err := scanner.Err(); err != nil {
